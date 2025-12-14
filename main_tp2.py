@@ -8,9 +8,9 @@ DATA_ROOT = "./ADL-Rundle-6/ADL-Rundle-6/"
 IMG_DIR = os.path.join(DATA_ROOT, "img1/")
 DET_FILE = os.path.join(DATA_ROOT, "det/yolov5l/det.txt")
 
-OUT_DIR = "./tracking_results/"
+OUT_DIR = "./tmp/"
 OUT_VIDEO = os.path.join(OUT_DIR, "tp2.mp4")
-OUT_TXT = os.path.join(OUT_DIR, "tp2.txt")
+OUT_TXT = os.path.join(OUT_DIR, "tp2_tmp.txt")
 
 
 def load_detections(det_path):
